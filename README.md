@@ -1,13 +1,14 @@
 # Versões
 
 #### v0.0.0
-Create project
+Create project</br>
 
 #### v0.0.1
-Create module usuario
+Create module usuario</br>
 
 #### v0.0.2
-
+Install prisma</br>
+Create model User</br>
 
 #### v0.0.3
 
