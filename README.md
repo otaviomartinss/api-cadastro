@@ -17,7 +17,12 @@ Update usuario.module</br>
 Update usuario.controller</br>
 
 #### v0.0.4
-
+English translation of everything</br>
+Update schema.prisma</br>
+Update usuario.entity</br>
+Create prisma.service</br>
+Update usuario.module</br>
+Update usuario.controller</br>
 
 #### v0.0.5
 
