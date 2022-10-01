@@ -34,5 +34,25 @@ Add and test functions create user, findAll users, find userByUsername
 Update message error in find user byUsername
 
 #### v0.0.8
+Install class-transformer, class-validator
 
+#### v0.0.9
+
+
+#### v0.0.10
+
+
+#### v0.0.11
+
+
+#### v0.0.12
+
+
+#### v0.0.13
+
+
+#### v0.0.14
+
+
+#### v0.0.15
 
