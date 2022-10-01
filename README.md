@@ -11,7 +11,10 @@ Install prisma</br>
 Create model User</br>
 
 #### v0.0.3
-
+Create usuario.entity</br>
+Create prisma.service</br>
+Update usuario.module</br>
+Update usuario.controller</br>
 
 #### v0.0.4
 
