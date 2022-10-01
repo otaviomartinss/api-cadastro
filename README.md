@@ -28,10 +28,10 @@ Update usuario.controller</br>
 Add location of schema.prisma in package.json
 
 #### v0.0.6
-Add and test functions create user, findAll users, find user ByUsername
+Add and test functions create user, findAll users, find userByUsername
 
 #### v0.0.7
-
+Update message error in find user byUsername
 
 #### v0.0.8
 

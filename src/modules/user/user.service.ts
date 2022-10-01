@@ -26,7 +26,7 @@ export class UserService {
             },
         })
         if (user.length == 0){
-            return "User not found"
+            return [`User ${username} not found`]
         }
         else {
             return user
