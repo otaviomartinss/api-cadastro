@@ -10,21 +10,26 @@ export class UserService {
         const userCreated = await this.prisma.user.create({
             data,
         })
-        
         return userCreated
     }
 
-    async getAll(){
+    async findAll(){
         return await this.prisma.user.findMany()
     }
 
 
 
-    /* buscaPorNomeDeUsuario(nomeDeUsuario){
-        return this.prisma.user.findUnique({
+    async findByUsername(username: string){
+        const user = await this.prisma.user.findMany({
             where: {
-                username: nomeDeUsuario,
-            }
+                username: username,
+            },
         })
-    } */
+        if (user.length == 0){
+            return "User not found"
+        }
+        else {
+            return user
+        }
+    }
 }

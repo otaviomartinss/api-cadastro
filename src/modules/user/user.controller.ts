@@ -3,7 +3,7 @@ import { UserDTO } from './user.entity';
 import { UserService } from './user.service';
 
 @Controller('users')
-export class UsuarioController {
+export class UserController {
   constructor(private readonly userService: UserService) {}
 
   @Post()
@@ -13,14 +13,16 @@ export class UsuarioController {
   }
 
   @Get()
-  public getAll(){
-    const users = this.userService.getAll()
+  public findAll(){
+    const users = this.userService.findAll()
     
     return users
   }
 
-  /* @Get("nomeDeUsuario")
-  public BuscaPorNomeDeUsuario(@Param("nomeDeUsuario") nomeDeUsuario:string){
-    const usuario = this.usuarioService.buscaPorNomeDeUsuario(nomeDeUsuario)
-  } */
+  @Get(":username")
+  public findByUsername(@Param("username") username:string){
+    const user = this.userService.findByUsername(username)
+    
+    return user
+  }
 }
