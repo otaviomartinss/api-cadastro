@@ -25,7 +25,7 @@ Update usuario.module</br>
 Update usuario.controller</br>
 
 #### v0.0.5
-
+Add location of schema.prisma in package.json
 
 #### v0.0.6
 
