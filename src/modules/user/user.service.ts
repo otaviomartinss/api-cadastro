@@ -7,10 +7,10 @@ export class UserService {
     constructor(private prisma: PrismaService){}
     
     async create(data){
-        const userCreated = await this.prisma.user.create({
+        const createdUser = await this.prisma.user.create({
             data,
         })
-        return userCreated
+        return createdUser
     }
 
     async findAll(){
