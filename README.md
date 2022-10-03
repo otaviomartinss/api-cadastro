@@ -88,3 +88,5 @@ Update README.md</br>
 #### v0.0.18
 Update README.md</br>
 
+#### v0.0.19
+Delete .env</br>
