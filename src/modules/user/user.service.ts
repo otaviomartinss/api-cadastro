@@ -32,4 +32,19 @@ export class UserService {
             return user
         }
     }
+
+
+    async usernameExists(username: string){
+        const user = await this.prisma.user.findMany({
+            where: {
+                username: username,
+            },
+        })
+        if (user.length == 0){
+            return !false
+        }
+        else {
+            return !true
+        }
+    }
 }

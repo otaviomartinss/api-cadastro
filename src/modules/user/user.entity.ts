@@ -1,5 +1,6 @@
 import { IsNotEmpty, IsString, IsEmail } from "class-validator"
 import { IsUsernameAlreadyExist } from "./isUsernameAlreadyExist.validator";
+
 export class UserDTO {
     id: number;
 

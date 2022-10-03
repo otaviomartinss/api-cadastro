@@ -46,7 +46,9 @@ Update validations in user.entity
 Update main.ts
 
 #### v0.0.11
-
+Create function usernameExists in user.service
+Update class IsUsernameAlreadyExistConstraint
+Add useContainer in main.ts
 
 #### v0.0.12
 
