@@ -6,8 +6,9 @@ import { UserService } from "./user.service";
 export class IsUsernameAlreadyExistConstraint implements ValidatorConstraintInterface{
     constructor(private userService: UserService){}
     validate(username: string, validationArguments?: ValidationArguments): boolean | Promise<boolean> {
-        return !!!this.userService.findByUsername(username)
-        
+        const test = !!!this.userService.findByUsername(username)
+        console.log(test)
+        return test
     }}
 
 export function IsUsernameAlreadyExist(validationOptions?: ValidationOptions) {

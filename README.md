@@ -41,7 +41,9 @@ Create IsUsernameAlreadyExist
 Add validations in user.entity
 
 #### v0.0.10
-
+Update IsUsernameAlreadyExist
+Update validations in user.entity
+Update main.ts
 
 #### v0.0.11
 

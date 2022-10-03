@@ -4,7 +4,7 @@ export class UserDTO {
     id: number;
 
     @IsUsernameAlreadyExist({
-        message: "Username "
+        message: "Username must be unique"
     })
     @IsNotEmpty({
         message: "Username is required"
