@@ -1,3 +1,12 @@
+# API de cadastro de usuário
+
+Nessa API, podemos realizar tanto o cadastro de usuário, quanto a busca, quanto também a listagem de todos usuários cadastrados.
+Utilizamos o Prisma como ORM, e o postgreSQL como banco de dados.
+Fizemos/utilizamos alguns filtros de excessões, serialização e tratamento dos dados, pipes, interceptors, decorators.
+Fizemos também a validação dos dados utilizando o class-validator e o class-transformer.
+
+
+
 # Versões
 
 #### v0.0.0
@@ -74,23 +83,8 @@ Update user.controller
 Update user.service
 
 #### v0.0.17
-
+Update README.md
 
 #### v0.0.18
-
-
-#### v0.0.19
-
-
-#### v0.0.20
-
-
-#### v0.0.21
-
-
-#### v0.0.22
-
-
-#### v0.0.23
 
 
