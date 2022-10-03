@@ -58,7 +58,10 @@ Update user.entity (Exclude and Expose)</br>
 Add APP_INTERCEPTOR in app.module</br>
 
 #### v0.0.14
-
+Update user.entity</br>
+Update user.controller</br>
+Update main.ts</br>
+Create HttpExceptionFilter</br>
 
 #### v0.0.15
 

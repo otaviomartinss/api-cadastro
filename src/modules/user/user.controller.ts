@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+import { Body, ClassSerializerInterceptor, Controller, Get, Param, Post, UseInterceptors } from '@nestjs/common';
 import { UserDTO } from './user.entity';
 import { UserService } from './user.service';
 
@@ -7,9 +7,10 @@ export class UserController {
   constructor(private readonly userService: UserService) {}
 
   @Post()
+  @UseInterceptors(ClassSerializerInterceptor)
   public create(@Body() user: UserDTO){
-    
-    return this.userService.create(user)
+      throw new Error("Erro no cadastro do usuário")
+      return this.userService.create(user)
   }
 
   @Get()

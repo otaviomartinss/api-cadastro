@@ -29,7 +29,9 @@ export class UserDTO {
     email: string;
 
 
-    @Exclude()
+    @Exclude({
+        toPlainOnly: true
+    })
     @Expose({
         name:"senha"
     })
