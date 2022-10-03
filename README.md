@@ -25,33 +25,33 @@ Update usuario.module</br>
 Update usuario.controller</br>
 
 #### v0.0.5
-Add location of schema.prisma in package.json
+Add location of schema.prisma in package.json</br>
 
 #### v0.0.6
-Add and test functions create user, findAll users, find userByUsername
+Add and test functions create user, findAll users, find userByUsername</br>
 
 #### v0.0.7
-Update message error in find user byUsername
+Update message error in find user byUsername</br>
 
 #### v0.0.8
-Install class-transformer, class-validator
+Install class-transformer, class-validator</br>
 
 #### v0.0.9
-Create IsUsernameAlreadyExist
-Add validations in user.entity
+Create IsUsernameAlreadyExist</br>
+Add validations in user.entity</br>
 
 #### v0.0.10
-Update IsUsernameAlreadyExist
-Update validations in user.entity
-Update main.ts
+Update IsUsernameAlreadyExist</br>
+Update validations in user.entity</br>
+Update main.ts</br>
 
 #### v0.0.11
-Create function usernameExists in user.service
-Update class IsUsernameAlreadyExistConstraint
-Add useContainer in main.ts
+Create function usernameExists in user.service</br>
+Update class IsUsernameAlreadyExistConstraint</br>
+Add useContainer in main.ts</br>
 
 #### v0.0.12
-
+Update README.md
 
 #### v0.0.13
 
