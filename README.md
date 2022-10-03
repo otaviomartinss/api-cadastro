@@ -37,7 +37,8 @@ Update message error in find user byUsername
 Install class-transformer, class-validator
 
 #### v0.0.9
-
+Create IsUsernameAlreadyExist
+Add validations in user.entity
 
 #### v0.0.10
 
