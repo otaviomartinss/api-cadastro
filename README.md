@@ -51,13 +51,39 @@ Update class IsUsernameAlreadyExistConstraint</br>
 Add useContainer in main.ts</br>
 
 #### v0.0.12
-Update README.md
+Update README.md</br>
 
 #### v0.0.13
-
+Update user.entity (Exclude and Expose)</br>
+Add APP_INTERCEPTOR in app.module</br>
 
 #### v0.0.14
 
 
 #### v0.0.15
+
+
+#### v0.0.16
+
+
+#### v0.0.17
+
+
+#### v0.0.18
+
+
+#### v0.0.19
+
+
+#### v0.0.20
+
+
+#### v0.0.21
+
+
+#### v0.0.22
+
+
+#### v0.0.23
+
 

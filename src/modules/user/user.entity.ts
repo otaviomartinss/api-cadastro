@@ -1,5 +1,7 @@
+import { Exclude, Expose } from "class-transformer";
 import { IsNotEmpty, IsString, IsEmail } from "class-validator"
 import { IsUsernameAlreadyExist } from "./isUsernameAlreadyExist.validator";
+
 
 export class UserDTO {
     id: number;
@@ -13,8 +15,12 @@ export class UserDTO {
     @IsString()
     username: string;
 
+    @Expose({
+        name: "nome"
+    })
     @IsString()
     name: string;
+
 
     @IsNotEmpty({
         message: "Email is required"
@@ -22,9 +28,19 @@ export class UserDTO {
     @IsEmail()
     email: string;
 
+
+    @Exclude()
+    @Expose({
+        name:"senha"
+    })
     @IsNotEmpty({
         message: "Password is required"
     })
     password: string;
+
+    @IsNotEmpty()
+    @Expose({
+        name: "aniversario"
+    })
     birthDate: String;
 }
